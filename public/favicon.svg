@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C58284" />
+      <stop offset="100%" stop-color="#556956" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ніжне бежеве коло фону -->
+  <circle cx="32" cy="32" r="30" fill="#FAF7F2" stroke="#8A9A86" stroke-width="1.5"/>
+
+  <!-- Переплетені весільні обручки -->
+  <g fill="none" stroke-width="3" stroke-linecap="round">
+    <!-- Ліва обручка (пудровий акцент) -->
+    <circle cx="26" cy="32" r="13" stroke="#C58284"/>
+    <!-- Права обручка (оливковий акцент) -->
+    <circle cx="38" cy="32" r="13" stroke="#556956"/>
+  </g>
+
+  <!-- Маленька зірочка / сяйво зверху -->
+  <path d="M 32 12 L 33.5 16 L 37.5 17.5 L 33.5 19 L 32 23 L 30.5 19 L 26.5 17.5 L 30.5 16 Z" fill="#C58284"/>
+</svg>
